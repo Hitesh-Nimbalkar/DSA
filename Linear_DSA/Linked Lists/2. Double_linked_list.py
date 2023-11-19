@@ -34,6 +34,8 @@ class DLL:
             self.start=n
         else:
             temp.next=n
+            
+            
     def search(self,data):
         temp=self.start
         while temp is not None:
